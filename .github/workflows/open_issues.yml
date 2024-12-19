@@ -2,6 +2,7 @@ name: Report remaining open issues
 on: push
 jobs:
   track_pr:
+    permissions : write-all
     runs-on: ubuntu-latest
     steps:
       - run: |
